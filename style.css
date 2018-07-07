@@ -9,12 +9,12 @@ p {
 
 body {
     width: 100%;
-    background-image: url("spiration%20dark.png")
+    background-image: url("image/spiration%20dark.png")
 }
 
 #tabcontrol {
     width: 100%;
-    background-color: #0c1a35;
+    background-color: rgb(1, 10, 22);
     padding: 20px;
     display: flex;
     overflow: hidden;
@@ -22,12 +22,18 @@ body {
 }
 
 #tabcontrol a {
+    width: 100%;
     text-decoration: none;
     font-size: 18px;
-    color: #fff;
+    color: rgba(255,255,255,0.6);
     font-family: "Klee-Medium";
     margin-left: 25px;
     
+}
+
+#tabcontrol a:hover {
+    color: rgba(255,255,255,1);
+    transition:0.5s;
 }
 
 #tabcontrol li {
@@ -44,6 +50,7 @@ body {
 #tabcontrol li ul {
     display: none;
     position: absolute;
+    background-color: rgba(1, 10, 22,0.6);
 }
 
 #tabbody {
@@ -62,6 +69,7 @@ body {
 
 #member p {
     font-size: 15px;
+    font-family: "Klee-Medium";
     padding: 20px;
 }
 
@@ -144,8 +152,28 @@ body {
 
 #wand h1 {
     font-size: 20px;
+    
+    color: #fff;
 }
 
+#wand {
+    width: 80%;
+    margin:30px auto;
+    display: block;
+    font-family: "Klee-Medium";
+}
+
+.wand_newt {
+    margin-bottom: 100px;
+}
+
+.wand_tina {
+    margin-bottom: 100px;
+}
+
+.wand_queenie {
+    margin-bottom: 100px;
+}
 
 .costume_newt {
     position: absolute;
@@ -263,6 +291,7 @@ body {
 #beasts {
     width: 85%;
     margin: 0 auto;
+    font-family: "Klee-Medium";
 }
 
 #beasts p {
